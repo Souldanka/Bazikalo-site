@@ -678,6 +678,14 @@
     }
 
 }
+@media ( max-width: 992px){
+    .faq-block{
+        flex-direction: column;
+    }
+    .accordion-button{
+        max-width: 100%;
+    }
+}
 
 @media ( max-width: 768px) {
     .intro-present{
