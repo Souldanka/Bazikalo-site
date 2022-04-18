@@ -140,7 +140,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 48px;
     text-align: center;
     color: #000000;
 }
@@ -723,7 +722,6 @@
     }
     .testimonials-heading{
         font-size: 36px;
-        line-height: 18px;
         margin-top: 40px;
     }
     .faq-block{
