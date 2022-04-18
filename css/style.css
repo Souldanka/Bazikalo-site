@@ -678,7 +678,8 @@
     }
 
 }
-@media ( max-width: 992px){
+
+@media  only screen and ( max-width: 992px) and (min-device-width: 320px){
     .faq-block{
         flex-direction: column;
     }
