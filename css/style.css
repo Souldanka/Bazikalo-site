@@ -139,7 +139,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 58px;
     text-align: center;
     color: #000000;
 }
@@ -291,13 +290,13 @@
 }
 .sertificate-box{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     padding-left: 60px;
 
 }
 .sertificate-box img{
-    max-width: 256px;
+    max-width: 80%;
 }
 .author-intro{
     display: block;
@@ -582,6 +581,9 @@
     .sertificate-box{
         justify-content: center;
     }
+    .sertificate-box img{
+        max-width: 55%;
+    }
     .author-box{
         padding-left: 40px;
         padding-right: 40px;
@@ -643,7 +645,7 @@
         display: flex;
     }
     .sertificate-box img {
-        max-width: 150px;
+        max-width: 80%;
     }
     
     #author{
@@ -731,7 +733,6 @@
     }
     .testimonials-heading{
         font-size: 36px;
-        margin-top: 40px;
     }
     .faq-block{
         flex-direction: column;
@@ -773,7 +774,7 @@
         margin-top: 120px;
     }
     .testimonials-heading {
-        margin-top: 40px;
+        font-size: 24px;
     }
     .result-tittle{
         font-size: 14px;
@@ -824,6 +825,11 @@
     .footer-heading{
         font-size: 36px;
     }
+    .result{
+        padding-top: 0;
+    }
+    
+    
 }
 
 @media ( max-width: 480px) {
@@ -840,8 +846,8 @@
         line-height: 14px;
     }
     .author-name {
-        font-size: 28px;
-        line-height: 28px;
+        font-size: 24px;
+        line-height: 18px;
     }
     .result-heading{
         font-size: 24px;
@@ -868,6 +874,7 @@
         padding-right: 20px;
     }
     .author-box{
+        flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -883,11 +890,74 @@
         padding-bottom: 40px;
     }
     .faq-heading{
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .faq-title{
+        font-size: 14px;
+        line-height: 14px;
     }
     .result{
         padding-bottom: 0;
     }
+    .intro-present{
+        font-size: 14px;
+    }
+    .intro-heading{
+        font-size: 24px;
+    }
+    .intro-heading br{
+        display: none;
+    }
+    .all-bt{
+        font-size: 14px;
+    }
+    .intro-subTittle{
+        font-size: 14px;
+    }
+    .testimonials-title{
+        font-size: 14px;
+    }
+    .author-intro{
+        font-size: 14px;
+    }
+    .autor-items {
+        margin-top: 20px;
+    }
+    .participant-heading{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .participant-block{
+        margin-top: 0;
+    }
+    .step-heading{
+        font-size: 24px;
+        line-height: 24px;
+        padding: 10px;
+    }
+    .step-box {
+        max-width: 250px;
+        margin: auto;
+    }
+    .step-title{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .step-subtittle{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer-heading{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .footer-tittle{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+   
+    
 
 }
