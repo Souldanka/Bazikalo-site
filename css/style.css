@@ -630,6 +630,8 @@
         padding-right: 20px;
     }
     .result-heading{
+        font-size: 36px;
+        line-height: 32px;
         padding-left: 40px;
         padding-right: 40px;
     }
@@ -664,16 +666,9 @@
     }
     .autor-item{
         padding-right: 60px;
-        padding-left: 110px;
+        padding-left: 60px;
     }
-    .autor-item::before {
-        left: 80px;
-    }
-    .result-heading{
-        font-size: 36px;
-        line-height: 32px;
-        justify-content:center;
-    }
+    
     .participant-block{
         padding-right: 40px;
         padding-left: 40px;
@@ -694,20 +689,20 @@
     .intro-present{
         font-size: 16px;
         line-height: 24px;
-        text-align: center;
+        
     }
     .intro-heading{
         margin: 0 auto;
         font-size: 36px;
         line-height: 46px;
-        text-align: center;
+        
     }
     .intro-tittle{
         max-width: 370px;
         margin: 0 auto;
         font-size: 14px;
         line-height: 28px;
-        text-align: center;
+      
     }
     .mainBtn{
         margin: 0 auto;
@@ -716,6 +711,9 @@
         margin: 0 auto;
         padding-bottom: 40px;
         text-align: center;
+    }
+    .testimonials-title{
+        text-align: left;
     }
     .intro-img{
         display: block;
@@ -770,11 +768,18 @@
 
 
 @media ( max-width: 576px) {
+    .intro {
+        padding-top: 60px;
+    }
     .testimonials-block {
         margin-top: 120px;
     }
     .testimonials-heading {
         font-size: 24px;
+        text-align: left;
+    }
+    .result-heading{
+        text-align: center;
     }
     .result-tittle{
         font-size: 14px;
